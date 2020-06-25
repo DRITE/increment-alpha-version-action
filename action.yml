@@ -1,0 +1,12 @@
+name: 'Increment alpha version Action'
+description: 'Increments alpha version'
+inputs:
+  dist-tags:  # id of input
+    description: 'actual tads from npm'
+    required: true
+outputs:
+  result-version: # incremented version
+    description: 'The result of version incrementing'
+runs:
+  using: 'node12'
+  main: 'index.js'

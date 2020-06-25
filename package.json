@@ -1,0 +1,24 @@
+{
+  "name": "increment-alpha-version-action",
+  "version": "1.0.0",
+  "description": "Increments alpha version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DRITE/increment-alpha-version-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DRITE/increment-alpha-version-action/issues"
+  },
+  "homepage": "https://github.com/DRITE/increment-alpha-version-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^3.0.0"
+  }
+}
